@@ -1,0 +1,123 @@
+body {
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-color: darkred;;
+    
+}
+
+#header{
+    background: darkred;
+    border: 5px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+#banner {
+position: relative;
+left: 150px;
+width: 75%;
+height: 400px;
+border-radius: 20%;
+}
+
+#nav ul{
+    background: none;
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#nav li {
+    display: inline;
+    padding: 1px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ #nav li a {
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     text-shadow: 2px 2px black;
+ }
+
+ #center {
+     background:rgb(200, 184, 142);
+     color:black;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     float: left;
+     width: 800px;
+     height: 540px;
+     margin: 2px;
+     padding: 2px;
+     font-size: 30px;
+     border-radius: 20%;
+     border: 3px solid black;
+ }
+
+ #center h2{
+     position: absolute;
+     top: 550px;
+     left: 110px;
+     text-shadow: 2px 2px black;
+     z-index:2;
+ }
+
+#center img {
+    height: 40%;
+    width: 40%;
+    position:;
+    top: 1;
+    z-index: 1;
+}
+
+ #about {
+    color: black;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+ }
+
+ #sidebar {
+     position: relative;
+     height: 530px;
+     width: 600px;
+     float: right;
+     background:rgb(200, 184, 142);
+     margin: 5px;
+     padding: 5px;
+     border: 3px solid black;
+     text-align: center;
+     border-radius: 10%;
+ }
+
+#signup {
+    background: rgb(197, 181, 142);
+    position: absolute;
+    top: 1050px;
+    height: 400px;
+    margin: 0;
+    padding: 10px;
+    border: 6px dotted darkred;
+    text-align: center;
+}
+
+.box {
+    background: darkred;
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.box img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+
