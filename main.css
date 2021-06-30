@@ -1,22 +1,24 @@
 body {
     background-image: url("assets/background.jpg");
     background-size: cover;
-    background-color: darkred;;
+    background-color: #93E9BE;
     
 }
 
 #header{
-    background: darkred;
-    border: 5px solid black;
+    background:rgb(194, 142, 142);
+    border: 5px solid white;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
 }
-#banner {
-position: relative;
-left: 150px;
-width: 75%;
-height: 400px;
-border-radius: 20%;
+
+#nav {
+    background-color: paleturquoise;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
 }
 
 #nav ul{
@@ -27,6 +29,10 @@ border-radius: 20%;
     margin: 0;
 }
 
+#nav ul a:hover {
+    opacity:0.6;
+}
+
 #nav li {
     display: inline;
     padding: 1px;
@@ -35,17 +41,17 @@ border-radius: 20%;
 }
  #nav li a {
      text-decoration: none;
-     color: rgb(255, 255, 255);
+     color: black;
      font-weight: bold;
-     text-shadow: 2px 2px black;
+     text-shadow: 2px 2px white;
  }
 
  #center {
-     background:rgb(200, 184, 142);
-     color:black;
+     background:rgb(194, 142, 142);
+     color:brown;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      float: left;
-     width: 800px;
+     width: 900px;
      height: 540px;
      margin: 2px;
      padding: 2px;
@@ -56,16 +62,17 @@ border-radius: 20%;
 
  #center h2{
      position: absolute;
-     top: 550px;
+     top: 330px;
      left: 110px;
      text-shadow: 2px 2px black;
      z-index:2;
+     color: #93E9BE;
  }
 
 #center img {
     height: 40%;
-    width: 40%;
-    position:;
+    width: 30%;
+    position: relative;
     top: 1;
     z-index: 1;
 }
@@ -74,7 +81,7 @@ border-radius: 20%;
     color: black;
     position: relative;
     left: 10px;
-    top: 10px;
+    top: 5px;
     font-size: 25px;
     padding: 5px;
     margin: 5px;
@@ -84,40 +91,130 @@ border-radius: 20%;
  #sidebar {
      position: relative;
      height: 530px;
-     width: 600px;
+     width: 560px;
      float: right;
-     background:rgb(200, 184, 142);
+     background:rgb(194, 142, 142);
      margin: 5px;
      padding: 5px;
      border: 3px solid black;
      text-align: center;
-     border-radius: 10%;
  }
 
 #signup {
-    background: rgb(197, 181, 142);
+    background: paleturquoise;
     position: absolute;
-    top: 1050px;
+    top: 780px;
+    left: 100px;
     height: 400px;
+    width: 1300px;
     margin: 0;
-    padding: 10px;
-    border: 6px dotted darkred;
+    border: 6px dotted black;
     text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(194, 142, 142);
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+}
+#signup img {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+#email {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 4px;
+}
+
+#email input {
+    box-shadow: 2px 2px black;
+    background: lightgray;
+    height: 30px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#email select {
+    box-shadow: 2px 2px black;
+    background: lightgray;
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#submit {
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+    box-shadow: 2px 2px white;
+    background:rgb(194, 142, 142);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
 .box {
-    background: darkred;
+    background: #93E9BE;
     margin: 3px;
     padding: 3px;
     position: relative;
     display: inline-block;
     text-align: center;
-    border-radius: 10%;
+    
 }
 
 .box img {
     height: 250px;
     width: 250px;
-    border-radius: 10%;
 }
 
+
+#footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+    padding: 5px;
+    background-color: #93E9BE;
+}
+
+
+#footer ul {
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    height: 20px;
+    display: inline-block;
+
+}
+
+#footer ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#footer ul a:hover {
+    opacity:0.8;
+}
+
+#footer li {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+#footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(194, 142, 142);
+    margin-bottom:0;
+}
